@@ -16,7 +16,7 @@ ul li a:hover {
 }
 
 .main{
-margin-left:150px;
+margin-left:0px;
 }
 .title {
   text-align: center;
@@ -34,6 +34,10 @@ margin-left:150px;
   padding:20px;
   top:0;
   left: 0;
-  background-color: black;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
 
 }
