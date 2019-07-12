@@ -37,12 +37,13 @@ margin-left:0px;
   padding:20px;
   top:0;
   left: 0;
-  background-color: lightgrey;
+  background-color: #283037ff;
 
 
 }
 
 .side-bar-menu {
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,7 +54,8 @@ margin-left:0px;
 .side-bar-menu *{
   margin:5px;
   text-decoration: none;
-  color:black;
+  color:white;
+  font-size: 15px;
 }
 
 
@@ -84,12 +86,22 @@ margin-left:0px;
 
 
 .intro{
+  min-height: 30vh;
+}
+
+.intro p{
   width: 50%;
   border-style: groove;
  border-width: 5px;
  border-color: #a9a7a6ff;
  margin:auto;
  flex: 1;
+
 }
 
 .intro p{padding:20px}
+
+
+.key-skills{
+  min-height: 55vh;
+}
