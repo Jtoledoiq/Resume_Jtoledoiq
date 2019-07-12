@@ -3,26 +3,11 @@
   padding: 0;
 }
 
-ul {
-  text-align: right;
-  position: fixed;
-  width: 100%;
-  background-color: #e0ebe8;
-}
-
- li {
-  display: inline-block;
-  margin: 45px;
-  margin-bottom: 15px;
-  margin-top: 25px;
-}
-
-
- ul li a {
-  color: #008080;
-  text-decoration: none;
-
-
+.menu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 ul li a:hover {
@@ -30,6 +15,10 @@ ul li a:hover {
   background-color: lightgrey;
 }
 
-header: {
+.title {
   text-align: center;
+  padding:60px;
+  font-size: 30px;
+  color:#20B2AA;
+  background-color: #4682B4;
 }
