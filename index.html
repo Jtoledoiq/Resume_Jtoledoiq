@@ -9,6 +9,7 @@
 
 
     <div class="side-bar">
+      <div class="close-bar"><img src="images/menu.svg" alt="menu"></div>
       <a href="#">Option_1</a>
       <a href="#">Option_2</a>
       <a href="#">Option_3</a>
@@ -33,11 +34,18 @@
 
     <script>
       document.getElementsByClassName("side-bar")[0].style.display="none"
-      var x=document.getElementsByClassName("menu-button");
-      console.log(x)
-      x[0].addEventListener("click", hideBar);
-      function hideBar() {
-  document.getElementsByClassName("side-bar")[0].style.display="block"      }
+
+      document.getElementsByClassName("menu-button")[0].addEventListener("click", displayBar);
+      document.getElementsByClassName("close-bar")[0].addEventListener("click", hideBar);
+
+      function displayBar() {
+        console.log("holaa")
+        document.getElementsByClassName("side-bar")[0].style.display="block"
+    }
+       function hideBar(){
+        document.getElementsByClassName("side-bar")[0].style.display="none"
+
+       }
 
     </script>
 
