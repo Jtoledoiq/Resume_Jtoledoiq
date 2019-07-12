@@ -26,18 +26,41 @@ margin-left:0px;
   background-color: #4682B4;
 }
 
-.side-bar{
+.side-bar {
   height: 100%;
   width:150px;
-  display: inline-block;
   position:fixed;
   padding:20px;
   top:0;
   left: 0;
   background-color: lightgrey;
+  transition: width 2s, height 4s;
+
+}
+
+.side-bar-menu {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center
 
+}
+
+.side-bar-menu *{
+  margin:5px;
+  text-decoration: none;
+  color:black;
+}
+
+
+.close-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.profile-picture{
+  width: 150px;
+  height: 150px;
 }
