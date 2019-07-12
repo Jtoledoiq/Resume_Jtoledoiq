@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: #e0ebe8;
+}
+
+ li {
+  display: inline-block;
+  margin: 45px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+
+ ul li a {
+  color: #008080;
+  text-decoration: none;
+
+
+}
+
+ul li a:hover {
+  color: green;
+  background-color: lightgrey;
+}
+
+header: {
+  text-align: center;
+}
