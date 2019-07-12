@@ -23,7 +23,7 @@
 
       <nav>
         <div class="menu">
-          <img src="images/menu.svg" alt="menu">
+          <img class="menu-button" src="images/menu.svg" alt="menu">
           <a href="#">Contact</a>
         </div>
       </nav>
@@ -31,7 +31,15 @@
     </div>
 
 
+    <script>
+      document.getElementsByClassName("side-bar")[0].style.display="none"
+      var x=document.getElementsByClassName("menu-button");
+      console.log(x)
+      x[0].addEventListener("click", hideBar);
+      function hideBar() {
+  document.getElementsByClassName("side-bar")[0].style.display="block"      }
 
+    </script>
 
 
   </body>
