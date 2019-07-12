@@ -34,7 +34,7 @@ margin-left:0px;
   top:0;
   left: 0;
   background-color: lightgrey;
-  transition: width 2s, height 4s;
+  transition: height 350ms ease-in-out;
 
 }
 
